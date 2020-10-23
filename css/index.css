@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap');
+
 html {
     background: #D35269;
     color: #202327;
+    font-family: "Baloo Thambi 2";
 }
 
 #child {
@@ -29,4 +32,9 @@ html {
 
 #footer a:hover {
     color: #D35269;
+}
+
+h0 {
+    font-size: 300%;
+    font-weight: bold;
 }
