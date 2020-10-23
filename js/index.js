@@ -1,9 +1,10 @@
-var rows = Array["A", "B", "C", "D", "E"];
-var columns = Array["1", "2", "3", "4", "5"];
+var rows = ["A", "B", "C", "D", "E"];
+var columns = ["1", "2", "3", "4", "5"];
+
+var otpt = document.getElementById("otpt");
 
 function generate()
 {
-    print(rows[Math.floor(Math.random()) * 6]);
+    let row = rows[Math.floor(Math.random()) * 5];
+    otpt.innerHTML = row;
 }
-
-generate();

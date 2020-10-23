@@ -1,0 +1,33 @@
+html {
+    background: #D35269;
+    color: #202327;
+}
+
+#child {
+    border: 5px solid #202327;
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    margin-left: -25%;
+    text-align: center;
+    background: #fff;
+}
+
+#footer {
+    border-top: 2px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#footer a {
+    margin: 5px;
+    color: #202327;
+    text-decoration: transparent solid underline;
+    transition: all 0.2s ease;
+}
+
+#footer a:hover {
+    color: #D35269;
+    text-decoration: #D35269 solid;
+}
