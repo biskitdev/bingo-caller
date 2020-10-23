@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="canonical" href="https://bingo-caller-app.herokuapp.com">
     <link type="text/css" rel="stylesheet" href="css/index.css">
+    <link type="image/png" rel="icon" href="img/bingo-caller.png">
     <title>bingo-caller</title>
 </head>
 <body>
@@ -14,13 +15,16 @@
             <h0 id="otpt">NaN</h0>
             <br />
             <button onclick="generate()">Generate</button>
+            <p>..Or press space</p>
             <audio src="" id="tts" hidden></audio>
             <div id="footer">
                 <a href="https://github.com/biskitdev/bingo-caller" id="first">GitHub</a>
                 <a href="https://github.com/biskitdev/">biskit</a>
+                <p>Made for the Year 6 PYP Exhibition 2020</p>
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
 </body>
 </html>
