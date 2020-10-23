@@ -4,6 +4,14 @@ var columns = ["1", "2", "3", "4", "5"];
 var otpt = document.getElementById("otpt");
 var tts = document.getElementById("tts");
 
+document.addEventListener('keypress', function(e)
+{
+    if(e.key == "space")
+    {
+        generate();
+    }
+});
+
 function generate()
 {
     var row = rows[Math.floor(Math.random() * 5)];
