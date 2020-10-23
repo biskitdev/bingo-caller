@@ -6,6 +6,10 @@ html {
     font-family: "Baloo Thambi 2";
 }
 
+::selection {
+    background: #E28D9D;
+}
+
 #child {
     border: 5px solid #202327;
     border-radius: 15px;
@@ -37,4 +41,19 @@ html {
 h0 {
     font-size: 300%;
     font-weight: bold;
+}
+
+button {
+    font-size: 120%;
+    margin: 20px;
+    font-family: "Baloo Thambi 2";
+    padding: none;
+    background-color: transparent;
+    border: 2px solid #202327;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #E28D9D;
 }
